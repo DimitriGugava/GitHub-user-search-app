@@ -1,0 +1,212 @@
+.userProfileContainer {
+  height: 517px;
+  width: 327px;
+  margin: 16px auto;
+  border-radius: 15px;
+  background: rgba(254, 254, 254, 1);
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+}
+
+.userDemographicsContainer {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  width: 233px;
+  border-radius: 0px;
+  margin-top: 32px;
+  margin-left: 24px;
+  gap: 19px;
+}
+.userPhoto {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+}
+.userDataBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 69px;
+  width: 144px;
+  gap: 1px;
+}
+
+.userName {
+  height: 24px;
+  width: 145px;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(43, 52, 66, 1);
+}
+.userID {
+  height: 19px;
+  width: 64px;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(0, 121, 255, 1);
+}
+
+.userJoinedData {
+  height: 19px;
+  width: 200px;
+  flex-wrap: wrap;
+  font-family: "Space Mono";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(105, 124, 154, 1);
+}
+
+.userAboutMe {
+  height: 75px;
+  width: 279px;
+  font-family: Space Mono;
+  margin: 32px auto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(75, 106, 155, 1);
+}
+
+.userGithubDataBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 85px;
+  width: 279px;
+  margin: 23px auto;
+  background: #f6f8ff;
+  border-radius: 10px;
+}
+.gitDataTitle {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 16px;
+  width: 79px;
+  font-family: "Space Mono";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(75, 106, 155, 1);
+}
+
+.number {
+  height: 24px;
+  width: 79px;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(43, 52, 66, 1);
+}
+
+.contactAllInfoContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 24px;
+  gap: 15px;
+  height: 127px;
+  width: 185px;
+}
+
+.contactBox {
+  display: flex;
+  flex-direction: row;
+  height: 127px;
+  width: 185px;
+  margin-left: 24px 24px;
+  gap: 12px;
+}
+.contactImg {
+  height: 20px;
+  width: 20px;
+}
+
+.address {
+  height: 19px;
+  width: 124px;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(75, 106, 155, 1);
+}
+.location {
+  height: 19px;
+  width: 150px;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(75, 106, 155, 1);
+}
+@media only screen and (min-width: 1140px) {
+  .userProfileContainer {
+    height: 419px;
+    width: 730px;
+
+    border-radius: 15px;
+  }
+  .userDemographicsContainer {
+    margin: 48px auto;
+    width: 600px;
+    height: 90px;
+  }
+  .userJoinedData {
+    position: absolute;
+    margin-left: 360px;
+    width: 140px;
+    height: 55px;
+    font-size: 13px;
+  }
+  .userAboutMe {
+    width: 480px;
+    margin-top: -65px;
+  }
+  .userGithubDataBox {
+    height: 85px;
+    width: 480px;
+    margin: -24px auto;
+    border-radius: 10px;
+  }
+
+  .contactAllInfoContainer {
+    position: relative;
+    margin: 35px auto;
+    width: 450px;
+    height: 100px;
+  }
+  #twitterbox {
+    position: absolute;
+    margin-left: 320px;
+    height: auto;
+  }
+  #building {
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 55px;
+    height: auto;
+  }
+}

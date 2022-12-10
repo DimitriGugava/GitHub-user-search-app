@@ -1,0 +1,19 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "Img": "/ProfilesPhotos/dima.jpg",
+      "name": "Dimitri Gugava",
+      "nickname": "DGug",
+      "DataOfJoinning": "20 Aug 2020",
+      "about": "Hello, I am Dimitri. I am a web developer from Georgia",
+      "repos": 54,
+      "followers": 1500,
+      "following": 220,
+      "location": "Tbilisi",
+      "GitHub": "https://github.com/DimitriGugava",
+      "Twitter": "Not Available",
+      "address": "Tbilisi Business center"
+    }
+  ]
+}
