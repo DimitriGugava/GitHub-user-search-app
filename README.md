@@ -11,7 +11,7 @@
 - [Author](#author)
 
 ## Overview
-I made this project in ReactJS. I used mobile first approach. It took me around 3 hours.
+I made this project in ReactJS. I used mobile first approach. It took me around 3 hours. The data is fetched from GitHub API. It contains actual users data. 
 ### The challenge
 
 Users should be able to:
